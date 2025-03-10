@@ -1,0 +1,94 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fontes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Botões no header */
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-buttons .btn {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-buttons .btn:hover {
+    background-color: #5a6cb0;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Container para as 7 seções (2 por linha, sendo a 7ª sozinha embaixo) */
+.section-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as seções se movam para a linha seguinte quando necessário */
+    gap: 20px; /* Espaçamento entre as seções */
+}
+
+/* Estilo para cada seção */
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Largura das seções (duas por linha) */
+section:nth-

@@ -1,0 +1,21 @@
+
+header {
+
+position: absolute;
+width: 100%;
+height: auto;
+left: 0px;
+top: 0px;
+background-image: url('/assets/images/header.png');
+background-size: cover;
+background-position: center;
+padding: 100px;
+}
+
+.content {
+text-align:center;    
+width: 757px;
+height: 270px;
+left: 1200px;
+gap: 24px;
+}

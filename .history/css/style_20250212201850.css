@@ -1,0 +1,27 @@
+Header {
+
+position: absolute;
+width: 1280px;
+height: 459px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+}
+
+Header Content {}
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 757px;
+height: 270px;
+left: 261px;
+top: 94px;
+

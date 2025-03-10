@@ -1,0 +1,153 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fontes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 45vh;
+    width: 100%;
+    background-image: url('/assets/images/header.png');
+    background-size: cover; /* A imagem vai cobrir todo o header */
+    background-position: center; /* A imagem será centralizada */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+header h1 {
+    font-family:Luckiest Guy;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 313px;
+    height: 112px;
+    text-align: center;
+}
+
+header p {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 757px;
+    height: 66px;
+    text-align: center;
+}
+
+
+/* Botões no header */
+/* Estilos para o contêiner de botões */
+.header-buttons {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 10px; /* Distância entre os botões e a navegação */
+    justify-content: center; /* Alinha os botões ao centro horizontalmente */
+    align-items: center; /* Alinha os botões ao centro verticalmente */
+}
+
+
+/* Estilos gerais para os botões */
+.header-buttons .btn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para o efeito de hover */
+}
+
+/* Botão de Entrar - Cor de fundo e hover específicos */
+.header-buttons .login-btn {
+    background-color: #ffffff; /* Cor de fundo para o botão "Entrar" */
+    color: #23272A;
+}
+
+.header-buttons .login-btn:hover {
+    background-color: #23272A ; /* Cor de fundo mais escura ao passar o mouse */
+    color: #ffffff;
+}
+
+/* Botão de Registrar - Cor de fundo e hover específicos */
+.header-buttons .signup-btn {
+    background-color: #23272A; /* Cor de fundo para o botão "Registrar" */
+    color: #ffffff;
+}
+
+.header-buttons .signup-btn:hover {
+    background-color: #ffffff; /* Cor de fundo mais escura ao passar o mouse */
+    color: #23272A;
+}
+
+
+/* Main */
+main {
+    padding: 200px;
+}
+
+/* Container para as 7 seções (6 lado a lado e a 7ª embaixo) */
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Ajuste para Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Ajuste para Seções */
+    section {
+        width: 100%; /* Seções ocupam toda a largura em telas menores */
+        padding: 20px;
+    }
+
+    /* Ajuste para Botões */
+    .header-buttons {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajuste para texto no Footer */
+    footer p {
+        font-size: 0.8rem;
+    }
+}

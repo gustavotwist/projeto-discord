@@ -1,0 +1,52 @@
+header {
+
+position: absolute;
+width: 1280px;
+height: 459px;
+left: 0px;
+top: 0px;
+
+
+
+}
+
+header .content {
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+
+position: absolute
+width: 757px;
+height: 270px;
+left: 261px;
+top: 94px;
+
+}
+
+header, p{
+
+width: 757px;
+height: 66px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+opacity
+}

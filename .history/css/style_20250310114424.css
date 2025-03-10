@@ -1,0 +1,272 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fontes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 45vh;
+    width: 100%;
+    background-image: url('/assets/images/header.png');
+    background-size: cover; /* A imagem vai cobrir todo o header */
+    background-position: center; /* A imagem será centralizada */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+header h1 {
+    font-family:Luckiest Guy;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 313px;
+    height: 112px;
+    text-align: center;
+}
+
+header p {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 757px;
+    height: 66px;
+    text-align: center;
+}
+
+
+/* Botões no header */
+/* Estilos para o contêiner de botões */
+.header-buttons {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 10px; /* Distância entre os botões e a navegação */
+    justify-content: center; /* Alinha os botões ao centro horizontalmente */
+    align-items: center; /* Alinha os botões ao centro verticalmente */
+}
+
+
+/* Estilos gerais para os botões */
+.header-buttons .btn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para o efeito de hover */
+}
+
+/* Botão de Entrar - Cor de fundo e hover específicos */
+.header-buttons .login-btn {
+    background-color: #ffffff; /* Cor de fundo para o botão "Entrar" */
+    color: #23272A;
+}
+
+.header-buttons .login-btn:hover {
+    background-color: #23272A ; /* Cor de fundo mais escura ao passar o mouse */
+    color: #ffffff;
+}
+
+/* Botão de Registrar - Cor de fundo e hover específicos */
+.header-buttons .signup-btn {
+    background-color: #23272A; /* Cor de fundo para o botão "Registrar" */
+    color: #ffffff;
+}
+
+.header-buttons .signup-btn:hover {
+    background-color: #ffffff; /* Cor de fundo mais escura ao passar o mouse */
+    color: #23272A;
+}
+
+
+/* Main */
+main {
+    padding: 50px; /* Diminui o padding para um layout mais confortável */
+    margin-left: 160px;
+}
+
+/* Container para as 7 seções (2 por linha, sendo a 7ª sozinha embaixo) */
+.section-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as seções se movam para a linha seguinte quando necessário */
+    gap: 20px; /* Espaçamento entre as seções */
+}
+
+/* Estilo para cada seção */
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Largura das seções (duas por linha, ocupando 50% da largura) */
+section:nth-child(-n+6) {
+    width: calc(50% - 20px); /* Cada seção ocupará 50% da largura menos o gap */
+}
+
+/* A 7ª seção ocupa toda a largura da tela */
+section:nth-child(7) {
+    width: 100%; /* A 7ª seção ocupa toda a largura da tela */
+}
+
+/* Estilos específicos para a primeira seção, caso queira */
+#section1 {
+    width: 607px; /* Largura específica para a seção 1 */
+    height: 394px; /* Altura específica para a seção 1 */
+    background-image: url('/assets/images/section-image.png'); /* Definindo a imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a área da seção */
+    background-position: center; /* A imagem será centralizada */
+    background-repeat: no-repeat; /* A imagem não será repetida */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil (opcional) */
+}
+
+/* Estilos específicos para a primeira seção, caso queira */
+#section2 {
+    width: 407px; /* Largura específica para a seção 1 */
+    height: 394px; /* Altura específica para a seção 1 */
+}
+
+#section3 {
+    width: 407px; /* Largura específica para a seção 1 */
+    height: 394px; /* Altura específica para a seção 1 */
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#section3 h2 {
+    font-size: 46px;  /* Ajuste o tamanho do texto, se necessário */
+    margin-bottom: -100px;  /* Diminui a margem inferior entre o título e o conteúdo */
+}
+
+#section3 p {
+    margin-top: 0; /* Remove a margem superior do parágrafo, se necessário */
+}
+ 
+#section4 {
+    width: 607px; /* Largura específica para a seção 1 */
+    height: 394px; /* Altura específica para a seção 1 */
+    background-image: url('/assets/images/section3.png'); /* Definindo a imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a área da seção */
+    background-position: center; /* A imagem será centralizada */
+    background-repeat: no-repeat; /* A imagem não será repetida */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil (opcional) */
+ }
+ 
+ #section5 {
+    width: 607px; /* Largura específica para a seção 1 */
+    height: 394px; /* Altura específica para a seção 1 */
+    background-image: url('/assets/images/section5.png'); /* Definindo a imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a área da seção */
+    background-position: center; /* A imagem será centralizada */
+    background-repeat: no-repeat; /* A imagem não será repetida */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil (opcional) */
+ }
+
+ #section6 {
+    width: 407px; /* Largura específica para a seção 1 */
+    height: 394px; /* Altura específica para a seção 1 */
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#section6 h2 {
+    width:10px;
+    font-size: 46px;  /* Ajuste o tamanho do texto, se necessário */
+    margin-bottom: -60px;  /* Diminui a margem inferior entre o título e o conteúdo */
+}
+
+#section6 p {
+    margin-top: 0; /* Remove a margem superior do parágrafo, se necessário */
+}
+
+/* Estilo para título e parágrafo dentro das seções */
+section h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    width: 329px;
+    height: 270px;
+    color: #333;
+}
+
+section p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 348px;
+    color: #555;
+}
+
+section:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    section {
+        width: 100%; /* Seções ocupam toda a largura em telas menores */
+        padding: 20px;
+    }
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Ajuste para Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    /* Ajuste para Seções */
+    section {
+        width: 100%; /* Seções ocupam toda a largura em telas menores */
+        padding: 20px;
+    }
+
+    /* Ajuste para Botões */
+    .header-buttons {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajuste para texto no Footer */
+    footer p {
+        font-size: 0.8rem;
+    }
+}

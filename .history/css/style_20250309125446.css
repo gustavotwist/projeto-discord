@@ -1,0 +1,11 @@
+
+header {
+
+position: absolute;
+width: 1518px;
+height: 559px;
+left: 0px;
+top: 0px;
+background-image: url('/assets/images/header.png');
+background-size: cover;
+}

@@ -1,0 +1,18 @@
+
+header {
+
+position: absolute;
+width: 100%;
+height: auto;
+left: 0px;
+top: 0px;
+background-image: url('/assets/images/header.png');
+background-size: cover;
+background-position: center;
+padding: 100px;
+}
+
+header content {
+    display:flex;
+    flex-direction:rown;
+}

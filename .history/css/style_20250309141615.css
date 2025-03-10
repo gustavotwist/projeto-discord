@@ -1,0 +1,76 @@
+
+header {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0; /* Removi o 'left: 0px;' pois 'position: absolute;' já coloca no topo */
+    left: 0; /* Removi o 'top: 0px;' para manter a estrutura mais limpa */
+    background-image: url('/assets/images/header.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  }
+  
+  .content {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    padding: 24px; /* Adiciona espaço interno ao redor do conteúdo */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  }  
+
+  .content, h1 {
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#ffffff;
+  }
+
+  .content, p {
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-weight: 400;
+    color:#ffffff;
+  }
+  
+  button {
+    height: 35px;
+    padding: 10px;
+    gap: 16px;
+  }
+
+  .button1 {
+    width: 205;
+    height: 44;
+    border-radius: 28px;
+    color: #23272A;
+
+  }
+
+  .button2 {
+    width: 281;
+    height: 44;
+    left: 221px;
+    border-radius: 28px;
+    color: #FFFFFF;
+    background-color: #23272A;
+  }
+
+  section {
+    width: 971;
+    height: 394;
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+  }
+
+  .section-image {
+    background-image
+  }
