@@ -25,7 +25,7 @@ header {
     padding: 40px;
     height: 45vh;
     width: 100%;
-    background-image: url('assets/images/header.png');
+    background-image: url('../assets/images/header.png');
     background-size: cover; /* A imagem vai cobrir todo o header */
     background-position: center; /* A imagem será centralizada */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
