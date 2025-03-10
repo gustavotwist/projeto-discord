@@ -136,7 +136,7 @@ section:nth-child(7) {
 #section1 {
     width: 607px; /* Largura específica para a seção 1 */
     height: 394px; /* Altura específica para a seção 1 */
-    background-image: url('./assets/images/section-image.png'); /* Definindo a imagem de fundo */
+    background-image: url('../assets/images/section-image.png'); /* Definindo a imagem de fundo */
     background-size: cover; /* A imagem cobre toda a área da seção */
     background-position: center; /* A imagem será centralizada */
     background-repeat: no-repeat; /* A imagem não será repetida */
@@ -175,7 +175,7 @@ section:nth-child(7) {
 #section4 {
     width: 607px; 
     height: 394px; 
-    background-image: url('./assets/images/section3.png'); /* Definindo a imagem de fundo */
+    background-image: url('../assets/images/section3.png'); /* Definindo a imagem de fundo */
     background-size: cover; /* A imagem cobre toda a área da seção */
     background-position: center; /* A imagem será centralizada */
     background-repeat: no-repeat; /* A imagem não será repetida */
@@ -186,7 +186,7 @@ section:nth-child(7) {
  #section5 {
     width: 607px; 
     height: 394px; 
-    background-image: url('./assets/images/section5.png'); /* Definindo a imagem de fundo */
+    background-image: url('../assets/images/section5.png'); /* Definindo a imagem de fundo */
     background-size: cover; /* A imagem cobre toda a área da seção */
     background-position: center; /* A imagem será centralizada */
     background-repeat: no-repeat; /* A imagem não será repetida */
@@ -219,7 +219,7 @@ section:nth-child(7) {
     justify-content: flex-start; 
     align-items: center;  /* Centraliza o conteúdo horizontalmente */
     text-align: center;  /* Alinha o texto ao centro */
-    background-image: url('./assets/images/section7.png'); /* Definindo a imagem de fundo */
+    background-image: url('../assets/images/section7.png'); /* Definindo a imagem de fundo */
     background-size: 60%; 
     background-position: bottom;
     background-repeat: no-repeat; /* A imagem não será repetida */
